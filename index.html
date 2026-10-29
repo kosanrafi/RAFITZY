@@ -3,7 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rafi Fauzan - Portfolio</title>
+    <title>Rafi Fauzan Ramadhan - Portfolio Mahasiswa Teknik Informatika &amp; Web Developer</title>
+    <meta name="description" content="Portfolio Rafi Fauzan Ramadhan, mahasiswa Teknik Informatika dari Tasikmalaya. Lihat keahlian pengembangan web, proyek, dan hubungi untuk kolaborasi.">
+    <meta name="keywords" content="Rafi Fauzan Ramadhan, Rafi Fauzan, portfolio, web developer, mahasiswa teknik informatika, pengembangan web, Tasikmalaya, rafifauzanr.web.id">
+    <meta name="author" content="Rafi Fauzan Ramadhan">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <meta name="theme-color" content="#08090c">
+    <link rel="canonical" href="https://rafifauzanr.web.id/">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23dc2626'/%3E%3Cstop offset='1' stop-color='%23f97316'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='800' font-size='28' text-anchor='middle' fill='white'%3ERF%3C/text%3E%3C/svg%3E">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:site_name" content="Rafi Fauzan Ramadhan">
+    <meta property="og:title" content="Rafi Fauzan Ramadhan - Portfolio Web Developer">
+    <meta property="og:description" content="Mahasiswa Teknik Informatika yang fokus pada pengembangan web modern, responsif, dan fungsional.">
+    <meta property="og:url" content="https://rafifauzanr.web.id/">
+    <meta property="og:image" content="https://rafifauzanr.web.id/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Portfolio Rafi Fauzan Ramadhan">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rafi Fauzan Ramadhan - Portfolio Web Developer">
+    <meta name="twitter:description" content="Mahasiswa Teknik Informatika yang fokus pada pengembangan web modern.">
+    <meta name="twitter:image" content="https://rafifauzanr.web.id/og-image.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://rafifauzanr.web.id/#website",
+          "url": "https://rafifauzanr.web.id/",
+          "name": "Rafi Fauzan Ramadhan - Portfolio",
+          "inLanguage": "id-ID",
+          "publisher": { "@id": "https://rafifauzanr.web.id/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://rafifauzanr.web.id/#person",
+          "name": "Rafi Fauzan Ramadhan",
+          "alternateName": "Rafi Fauzan",
+          "url": "https://rafifauzanr.web.id/",
+          "image": "https://rafifauzanr.web.id/og-image.png",
+          "jobTitle": "Mahasiswa Teknik Informatika & Web Developer",
+          "description": "Mahasiswa Teknik Informatika yang berfokus pada pengembangan web modern dan responsif.",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Tasikmalaya",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+          },
+          "knowsAbout": ["Pengembangan Web", "HTML", "CSS", "JavaScript", "Tailwind CSS", "UI/UX"]
+        }
+      ]
+    }
+    </script>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -24,6 +83,8 @@
             }
         }
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Font Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- FontAwesome Icons -->
@@ -62,7 +123,7 @@
     <header class="sticky top-0 z-50 backdrop-blur-md bg-[#08090c]/80 border-b border-white/5">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Logo / Brand -->
-            <a href="#home" class="flex items-center space-x-3">
+            <a href="#home" aria-label="Rafi Fauzan Ramadhan - Beranda" class="flex items-center space-x-3">
                 <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-600 to-orange-500 flex items-center justify-center font-extrabold text-white text-xl shadow-lg shadow-red-600/30">
                     RF
                 </div>
@@ -70,7 +131,7 @@
             </a>
 
             <!-- Navigation Links -->
-            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
+            <nav aria-label="Navigasi utama" class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-300">
                 <a href="#home" class="text-white hover:text-red-500 transition-colors">Beranda</a>
                 <a href="#tentang" class="hover:text-red-500 transition-colors">Tentang Saya</a>
                 <a href="#keahlian" class="hover:text-red-500 transition-colors">Keahlian</a>
@@ -88,7 +149,7 @@
             </div>
 
             <!-- Mobile Menu Toggle -->
-            <button id="mobile-menu-btn" class="md:hidden text-gray-400 hover:text-white focus:outline-none">
+            <button id="mobile-menu-btn" aria-label="Buka menu navigasi" aria-controls="mobile-menu" class="md:hidden text-gray-400 hover:text-white focus:outline-none">
                 <i class="fa-solid fa-bars text-2xl"></i>
             </button>
         </div>
@@ -138,19 +199,19 @@
                     <!-- Social Media Links -->
                     <div class="flex flex-wrap items-center gap-3 pt-2">
                         <span class="text-xs font-semibold text-gray-500 uppercase tracking-wider mr-2">Media Sosial:</span>
-                        <a href="https://github.com" target="_blank" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
                             <i class="fa-brands fa-github text-white"></i>
                             <span>GitHub</span>
                         </a>
-                        <a href="https://linkedin.com" target="_blank" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
                             <i class="fa-brands fa-linkedin text-blue-400"></i>
                             <span>LinkedIn</span>
                         </a>
-                        <a href="https://instagram.com" target="_blank" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
                             <i class="fa-brands fa-instagram text-red-500"></i>
                             <span>Instagram</span>
                         </a>
-                        <a href="https://tiktok.com" target="_blank" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-[#12141d] hover:bg-red-600/20 border border-white/10 hover:border-red-500/50 rounded-xl text-xs font-medium text-gray-300 hover:text-white flex items-center space-x-2 transition-all">
                             <i class="fa-brands fa-tiktok text-white"></i>
                             <span>TikTok</span>
                         </a>
@@ -166,7 +227,8 @@
                         <!-- Main Card Overlay -->
                         <div class="relative w-full h-full bg-[#12141d] border border-white/20 rounded-3xl shadow-2xl p-4 flex flex-col justify-between overflow-hidden">
                             <div class="relative h-full rounded-2xl overflow-hidden bg-gradient-to-b from-gray-800 to-gray-900 flex flex-col justify-end p-6">
-                                <img src="1.jpeg" alt="Rafi Fauzan" class="absolute inset-0 w-full h-full object-cover opacity-80 filter grayscale hover:grayscale-0 transition-all duration-500">
+                                <!-- Efek hitam putih menggunakan class Tailwind: filter grayscale hover:grayscale-0 -->
+                                <img src="URL_FOTO_ANDA_DI_SINI" alt="Foto Rafi Fauzan Ramadhan, mahasiswa Teknik Informatika" class="absolute inset-0 w-full h-full object-cover opacity-85 filter grayscale hover:grayscale-0 transition-all duration-500">
                                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent"></div>
                                 <div class="relative z-10 space-y-2">
                                     <span class="px-3 py-1 bg-red-600/80 backdrop-blur-md rounded-full text-[10px] font-bold tracking-wider text-white uppercase inline-block">Web Developer</span>
@@ -213,7 +275,7 @@
                         </div>
                         <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Latar Belakang & Dedikasi</h2>
                         <p class="text-gray-300 text-sm sm:text-base leading-relaxed">
-                            Saya adalah mahasiswa aktif program studi **Teknik Informatika**. Memiliki ketertarikan mendalam pada pengembangan antarmuka web yang responsif, modern, dan fungsional. Berpengalaman dalam mengerjakan proyek individu maupun tim, dengan fokus pada baris kode yang bersih dan antarmuka pengguna (UI/UX) yang intuitif.
+                            Saya adalah mahasiswa aktif program studi <strong>Teknik Informatika</strong>. Memiliki ketertarikan mendalam pada pengembangan antarmuka web yang responsif, modern, dan fungsional. Berpengalaman dalam mengerjakan proyek individu maupun tim, dengan fokus pada baris kode yang bersih dan antarmuka pengguna (UI/UX) yang intuitif.
                         </p>
                         
                         <div class="space-y-3 pt-2">
@@ -311,7 +373,7 @@
                 <div class="project-card web bg-[#12141d] border border-white/10 rounded-2xl overflow-hidden group hover:border-red-500/50 transition-all duration-300 flex flex-col justify-between">
                     <div>
                         <div class="h-48 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Website TI 25 C UNPER" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Tampilan proyek Website TI 25 C UNPER" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-gradient-to-t from-[#12141d] via-transparent to-transparent"></div>
                         </div>
                         <div class="p-6">
@@ -335,7 +397,7 @@
                 <div class="project-card web bg-[#12141d] border border-white/10 rounded-2xl overflow-hidden group hover:border-red-500/50 transition-all duration-300 flex flex-col justify-between">
                     <div>
                         <div class="h-48 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Sistem Informasi Mahasiswa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" alt="Tampilan proyek Sistem Informasi Mahasiswa" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-gradient-to-t from-[#12141d] via-transparent to-transparent"></div>
                         </div>
                         <div class="p-6">
@@ -359,7 +421,7 @@
                 <div class="project-card kelas bg-[#12141d] border border-white/10 rounded-2xl overflow-hidden group hover:border-red-500/50 transition-all duration-300 flex flex-col justify-between">
                     <div>
                         <div class="h-48 overflow-hidden relative">
-                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Aplikasi Web Mini" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Tampilan proyek Aplikasi Web Mini" loading="lazy" decoding="async" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             <div class="absolute inset-0 bg-gradient-to-t from-[#12141d] via-transparent to-transparent"></div>
                         </div>
                         <div class="p-6">
@@ -403,7 +465,7 @@
                             </div>
                         </a>
 
-                        <a href="https://wa.me/6281234567890" target="_blank" class="flex items-center space-x-4 p-4 bg-[#12141d] border border-white/10 rounded-2xl hover:border-red-500/50 transition-colors">
+                        <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="flex items-center space-x-4 p-4 bg-[#12141d] border border-white/10 rounded-2xl hover:border-red-500/50 transition-colors">
                             <div class="w-10 h-10 rounded-xl bg-green-600/10 text-green-500 flex items-center justify-center">
                                 <i class="fa-brands fa-whatsapp"></i>
                             </div>
@@ -443,7 +505,7 @@
                             <textarea rows="4" required placeholder="Tuliskan pesan..." class="w-full bg-[#090a0f] border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-red-500 resize-none"></textarea>
                         </div>
                         <button type="submit" class="w-full bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white font-semibold py-3 rounded-xl transition-all shadow-lg shadow-red-600/20">
-                            Kirim PesanSekarang
+                            Kirim Pesan Sekarang
                         </button>
                     </form>
                 </div>
@@ -481,12 +543,12 @@
         });
 
         // Project Filter Functionality
-        const filterBtns = document.querySelectorAll('.filter-btn');
+        const tagBtns = document.querySelectorAll('.filter-btn');
         const projectCards = document.querySelectorAll('.project-card');
 
-        filterBtns.forEach(btn => {
+        tagBtns.forEach(btn => {
             btn.addEventListener('click', () => {
-                filterBtns.forEach(b => {
+                tagBtns.forEach(b => {
                     b.classList.remove('bg-red-600', 'text-white', 'active');
                     b.classList.add('bg-[#12141d]', 'text-gray-400');
                 });
